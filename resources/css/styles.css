@@ -1,31 +1,75 @@
+/* General Styles */
 body {
-    background: #000;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-/* HEADINGS */
-
+/* Headings */
 .header--main {
     font-weight: normal;
-    font-size: 50px;
+    font-size: 3rem;
     color: #fff;
+    margin: 20px 0;
 }
 
 .header--secondary {
     font-weight: 300;
-    font-size: 42px;
+    font-size: 2.5rem;
     color: #fff;
+    margin: 15px 0;
 }
 
 .header--sub-header {
-    font-size: 21px;
+    font-size: 1.3rem;
     color: gray;
+    margin: 10px 0;
 }
 
-/* LINKS */
-
+/* Links */
 .link--cta {
-    font-size: 16px;
+    font-size: 1rem;
     color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link--cta:hover {
+    color: #00ffff;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Video */
+video {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #111;
+    color: gray;
+    font-size: 0.9rem;
 }
